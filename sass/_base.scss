@@ -151,7 +151,7 @@ body {
     left: 0;
     z-index: 3;
     transform: scale(0);
-    transition-property: transform opacity;
+    transition-property: transform, opacity;
     transition-duration: 0.2s;
     //
     &.active {
